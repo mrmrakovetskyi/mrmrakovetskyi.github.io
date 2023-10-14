@@ -1,0 +1,47 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+.circle-1 {
+	height: 800px;
+	width: 800px;
+	border: 2px solid #8B0000;
+	border-radius: 2000px;
+    background-color: #8B0000;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.circle-2 {
+	height: 550px;
+	width: 550px;
+	border: 2px solid #8B0000;
+	border-radius: 2000px;
+	background-color: white;
+
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.circle-3 {
+	height: 250px;
+	width: 250px;
+	border: 2px solid #00008B;
+	border-radius: 2000px;
+	background-color: #00008B;
+
+}
+
+div {
+	
+	margin: 100px;
+}
+
