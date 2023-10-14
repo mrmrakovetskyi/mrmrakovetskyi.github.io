@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin: 40px;
+}
+
+
+
+th,td {
+	padding: 15px;
+	text-align: center;
+	width: 150px;
+	height: 150px;
+
+}
+
+td:nth-child(odd) {
+    background: black;
+}
+
+
+
+
+
