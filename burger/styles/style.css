@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	background: linear-gradient(95deg,#4e3a32, #2a2123 100%);
+}
+
+.home {
+	display: inline-block;
+	color: rosybrown;
+	padding-top: 20px;
+	padding-left: 160px;
+}
+.wrap {
+	display: flex;
+	flex-wrap: wrap;
+	width: 940px;
+	margin: 30px auto;
+	position: relative;
+}
+
+.l-side {
+	background-image: url(https://papa-joe.com.ua/wp-content/uploads/2020/09/IMG_5167.jpg);
+	width: 330px;
+	height: 400px;
+	background-size: cover;
+}
+
+.sticker {
+	width: 325px;
+	height: 180px;	
+	position: relative;
+	left: -9px;
+	top: 180px;
+	padding: 40px;
+	background-color: black;
+}
+
+.sticker div:first-child {
+		font-size: 44px;
+	line-height: 35px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+
+}
+
+.sticker div:last-child {
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 15px;
+	font-family: sans-serif;
+	color: white;
+
+}
+.color {
+	color: white;
+}
+.r-side {
+	width: 610px;
+	height: 400px;
+	background-color: white;
+	
+}
+
+h1 {
+	font-weight: 500;
+	font-size: 19px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
+
+.info {
+	display: flex;
+	justify-content: space-around;
+}
+
+.name {
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+	font-size: 21px;
+	padding-bottom: 4px;
+	padding-top: 15px;	
+}
+
+.price-list{
+	font-family: sans-serif;
+	display: flex;
+	justify-content: space-around;
+}
+
+.price {
+	display: flex;
+	flex-flow: column;
+	font-size: 18px;
+	color: grey;
+	width: 200px;
+	text-align: center;	
+	border-bottom: 1px solid grey;
+	padding-bottom: 15px;
+
+}
+
+.price:after {
+	content: "";
+	display: inline-block;
+  	width: 9px;
+  	height: 9px;
+ 	background-color: grey;
+  	transform: rotate(45deg);
+ 	position: relative;
+ 	 left: 45%;
+ 	 top: 21px;
+}
+
+.btn {
+width: 170px;
+	height: 50px;
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: black;
+	position: absolute;
+	right: 0px;
+	top: 405px;
+	text-align: center;
+	line-height: 50px;
+
+}
+
+.btn:hover {
+	background-color: deepskyblue;
+	color: black;
+}
+
+
+	}
+	.button {
+		position: fixed;
+		margin-right: 10px;
+		top: 450px;
+		width: 235px;
+	}
+	
+}
